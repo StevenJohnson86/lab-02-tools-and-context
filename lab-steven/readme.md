@@ -1,7 +1,8 @@
 # 401 Lab 2 - Testing with .call and .apply
 
 ### Objective
-_Use context management methods .call and .apply in a modules. Export the functionality, and test each with at least two tests_
+**Use context management methods .call and .apply in a modules.
+Export the functionality, and test each with at least two tests.**
 
 ### Methods
 * Mariner constructor
@@ -18,6 +19,6 @@ _Use context management methods .call and .apply in a modules. Export the functi
 
 #### Other Information
 In CLI:
-npm run start - starts runs index.js
-npm run lint - lints code
-npm run test - tests code using mocha
+- npm run start - starts runs index.js
+- npm run lint - lints code
+- npm run test - tests code using mocha
