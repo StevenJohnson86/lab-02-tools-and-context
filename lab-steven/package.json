@@ -1,0 +1,23 @@
+{
+  "name": "lab-steven",
+  "version": "1.0.0",
+  "description": "CF Lab02 working with call and apply",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": ".eslintrc",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "call",
+    "apply"
+  ],
+  "author": "CF Steven Johnson",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
