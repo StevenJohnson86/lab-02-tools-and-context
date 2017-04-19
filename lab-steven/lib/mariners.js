@@ -3,11 +3,10 @@
 module.exports = exports = {};
 
 exports.Mariner = function (name, exp, number){
-  this.disappointment = 'eventually';
   this.name = name;
   this.experience = `${exp} season`;
   this.number = number;
-
+  this.disappointment = 'eventually';
 };
 
 exports.Batter = function (name, exp, number, bats){
@@ -15,11 +14,7 @@ exports.Batter = function (name, exp, number, bats){
   this.batsWell = bats;
 };
 
-exports.haniger = new exports.Batter('Mitch Haniger', 1, 17, true);
-
 exports.Pitcher = function (name, exp, number, isTerrible){
   exports.Mariner.apply(this, [name, exp, number]);
   this.isTerrible = isTerrible;
 };
-
-exports.paxton = new exports.Pitcher('James Paxton', 4, 65, false);
