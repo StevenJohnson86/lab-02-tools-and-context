@@ -8,3 +8,4 @@ let valencia = new mariners.Mariner('Danny Valencia', 7, 26);
 
 console.log(haniger);
 console.log(paxton);
+console.log(valencia);
